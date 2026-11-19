@@ -1,44 +1,109 @@
-# gta6-meme-x-01 — The Getaway Driver Is a Ghost
+# gta6-meme-x-01
 
-[![gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01)
-[![rank](https://make.fun/badge/gta6-meme-x-01/zevabagus-spec/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01)
-[![reward](https://make.fun/badge/gta6-meme-x-01/zevabagus-spec/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01)
+[![make.fun bounty](https://img.shields.io/badge/make.fun-bounty-magenta)](https://make.fun/bounty/gta6-meme-x-01)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js 22](https://img.shields.io/badge/Node.js-22-green.svg)](https://nodejs.org/)
 
-A make.fun bounty entry: one GTA 6 meme, posted on X from the user's public X account, for the [gta6-meme-x-01 bounty](https://make.fun/bounty/gta6-meme-x-01). The top 50 entries share $500.
+A round 2 entry for the make.fun bounty "Post a GTA 6 meme on X": an AI agent
+makes a meme about GTA 6 with make.fun's ghost mascot in the picture, it is
+posted on X from a public account with make.fun and a tag of `@makefunai` and
+the entrant's play code in the post, telling people they can earn money on
+make.fun, and this repository hands in the post's address. An AI judge compares
+the posts two at a time, and the top 50 share $500.
 
-make.fun is a site where people and their AI agents build things, enter them in paid competitions (bounties) and earn real money when they win. Try it here: https://make.fun/r/pkrtjm47
+make.fun is a site where people and their AI agents build things, enter them in
+paid competitions (bounties) and earn real money when they win.
 
-## The meme
+Owner: [zevabagus-spec](https://github.com/zevabagus-spec) — referral:
+[https://make.fun/r/pkrtjm47](https://make.fun/r/pkrtjm47)
 
-![The meme](meme.png)
+## The approach
 
-The joke: after 13 years of waiting for GTA 6, the getaway finally happens — and the getaway driver is make.fun's ghost. The picture is a bright Vice City street at sunset, pastel art-deco buildings and palm trees, a pink convertible speeding along. The ghost is driving the car: a big white ghost with a thick black outline and two black four-pointed sparkle eyes, one round little hand on the wheel and the other raised high holding its magenta coin with a white star. A cheerful couple in the back seat throw their arms up. The in-picture caption reads "13 YEARS LATER..." at the top and "GTA 6 IS OUT!" at the bottom, both in large bold letters.
+Round 1's lesson was that its joke lived mostly in the caption while the
+picture was a pretty scene. So round 2 puts the whole joke IN the picture,
+using GTA's own visual language: a wanted poster.
 
-The ghost is not a sticker pasted in a corner. It is the driver — the main character of the scene, large in the centre of the frame, holding the wheel and waving the coin like loot from the getaway. That is also why it stays recognisable when the picture is shrunk to 480x480: it is the biggest figure in the image, with the sparkle eyes and the magenta star coin both clearly visible at small size.
+The picture is a vintage wanted poster. The make.fun ghost — white, thick
+black outline, two black four-pointed sparkle eyes, a round little hand,
+holding a magenta coin with a white star — is the mugshot in the centre,
+standing at a police lineup height chart, so the mascot is the criminal of the
+joke rather than a sticker pasted in a corner. Under it sit the five gold
+wanted stars every GTA player recognises at a glance. The charge reads
+"FOR MAKING EVERYONE CALL IN SICK FOR GTA 6", the launch-day sick-day joke
+every GTA fan gets in a second, with GTA 6 named in the picture itself. The
+bottom banner sells make.fun inside the picture too: "REWARD: REAL MONEY —
+make.fun". The post's text (caption.txt) repeats the charge in the ghost's
+voice, names @makefunai, links this bounty's page, carries the play code
+`makefun-cloud-sultana-bow`, and says people and their AI agents win real
+money in bounties on make.fun.
 
-The post text (in `caption.txt`, 217 characters) carries the same joke in the same voice and the pitch in one breath: the agent made the meme, and on make.fun people and their AI agents win real money in bounties — plus the bounty link and the play code `makefun-cloud-sultana-bow`.
+The judge ranks on seven things, in order: make.fun in the picture; funny; about
+GTA 6 specifically; sells make.fun; short and readable; original; a clean image
+with make.fun worked into the scene. This entry is built to answer them in that
+order: the ghost is large and central (recognisable at 480 by 480), the joke is
+a one-second GTA read, GTA 6 is named in the picture, and the reward banner
+plus the caption pitch sell make.fun in the meme's own voice.
 
-## The post
+## The post is the entry
 
-The meme (`meme.png`, square 1024x1024 PNG) is posted on X from the user's public X account with the exact text in `caption.txt`. `POST.json` at this repository's root holds the post's address once it is posted, in the form `{"url": "https://x.com/<account>/status/POST_ID"}` where POST_ID is the post's numeric id.
+The house reads the post from X and the judge sees it as the house read it:
+its first picture, then its text. It ranks the posts on the seven things above.
+The post's text counts as part of the joke. Likes, reposts, replies and views
+never count. The post and the meme stay yours.
 
-`POST.json` is not part of this build step: the post does not exist yet, and the file is added only after the user posts from his own X account and sends the link.
+## What the post must have
 
-## How the entry program works
+- Its picture shows make.fun: the ghost mascot, worked into the meme, large
+  enough to recognise when the picture is shrunk to 480 by 480 pixels.
+- It is posted on X at or after the bounty opens (2026-11-19T14:00:00Z) and
+  before the deadline (2026-11-23T14:00:00Z), from a public X account (not
+  protected). The post goes out from the user's public X account.
+- Its text carries make.fun, as a link (this bounty's page,
+  https://make.fun/bounty/gta6-meme-x-01) and a tag of `@makefunai`, and one
+  of the entrant's play codes, `makefun-cloud-sultana-bow`. It also tells
+  readers that people and their AI agents can earn money on make.fun.
+- Its first picture is the meme: `meme.png`, a 1024 by 1024 PNG, not a GIF or
+  a video. The judge sees it shrunk to fit 768 by 480 pixels (a square one at
+  480 by 480), so the caption in the picture is large; the post's text is kept
+  short.
+- No other account entered the same post first.
 
-`main.ts` (Node 22, standard library only, no network, no clock) copies `POST.json` from the repository root to the output directory. That is all it does — the house reads the post itself from X.
+Keep the post up and the account public until the results are out. Each
+submission may name a new post; the last submission before the deadline is the
+final entry.
 
-Run it locally:
+## What to change
 
-```sh
-mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
-```
+`POST.json` holds the post's address:
 
-`out/POST.json` is then byte for byte this directory's `POST.json`. If the copy fails, the program prints a clear error and exits 1.
+    {"url": "https://x.com/<handle>/status/<id>"}
 
-## Files
+It is not in this repository yet: the post does not exist until the meme is
+posted. After posting, write the post's address into `POST.json` at the
+repository root, as X shows it: `https://x.com/<handle>/status/<id>` (or the
+same on twitter.com), the id digits only. `main.ts` refuses to run without it,
+on purpose — a repository with no post is not an entry.
 
-- `meme.png` — the meme image, square 1024x1024 PNG, generated in-session
-- `caption.txt` — the exact post text for X (217 characters)
-- `main.ts` — the entry program
-- `LICENSE` — MIT
+`main.ts` copies `POST.json` from this repository to `/output/POST.json`,
+which is all the program has to do. `caption.txt` holds the exact post text to
+publish with `meme.png` (play code included) — 216 characters, verified by
+script. `meme.png` is the meme itself, viewed at full size and at 480 by 480
+before committing: the ghost, the five stars and every line of text stay
+readable at the smaller size.
+
+## Run it locally
+
+    mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+
+With `POST.json` in place, `out/POST.json` is then byte for byte this
+directory's `POST.json`. Without it, the program exits 1 with a clear error.
+
+## Before you submit
+
+From the kit's own directory, run the site's pre-submit checks on this
+repository and the transcripts you will upload:
+
+    node cli/makefun.mjs check --kit . --repo <this repository> --transcripts transcripts.tar.gz
+
+The kit's `RULES.txt` gives the bundling and submit commands, and the
+competition's page gives the dates and the rewards.
