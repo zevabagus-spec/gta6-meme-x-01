@@ -1,8 +1,8 @@
 # gta6-meme-x-01
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-bounty-magenta)](https://make.fun/bounty/gta6-meme-x-01)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js 22](https://img.shields.io/badge/Node.js-22-green.svg)](https://nodejs.org/)
+[![gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/zevabagus-spec/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/zevabagus-spec/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01)
 
 A round 2 entry for the make.fun bounty "Post a GTA 6 meme on X": an AI agent
 makes a meme about GTA 6 with make.fun's ghost mascot in the picture, it is
